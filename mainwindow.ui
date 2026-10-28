@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">font: 22pt &quot;Microsoft YaHei UI&quot;;
+</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <property name="spacing">
@@ -353,7 +357,7 @@
          </sizepolicy>
         </property>
         <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
         </property>
         <property name="placeholderText">
          <string>0</string>
@@ -370,7 +374,7 @@
      <x>0</x>
      <y>0</y>
      <width>406</width>
-     <height>23</height>
+     <height>43</height>
     </rect>
    </property>
   </widget>
